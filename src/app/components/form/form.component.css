@@ -1,0 +1,48 @@
+
+
+.sub-container {
+  position: relative; 
+  width: 950px; 
+  height: 990px; 
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  background-color: ccc; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.full-page-image {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  opacity: 0.1; 
+  z-index: 1; 
+  width: 100%; 
+ 
+}
+
+.full-page-image img {
+  width: 100%; 
+  height: auto; 
+}
+
+.content {
+  position: relative; 
+  z-index: 2; 
+  color: black; 
+}
+
+h1 {
+ 
+  margin-bottom: 10px; 
+}
+
+input.form-control {
+  border: 1px solid black; 
+  border-radius: 0
+}
+
+
+
+
+
